@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainwater Harvesting Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rainwater Harvesting Calculator</h1>
+        <p>Calculate how much rainwater you can collect from your roof.</p>
+
+        <div class="calculator">
+            <label for="roofArea">Roof Area (sq meters):</label>
+            <input type="number" id="roofArea" placeholder="Enter roof area">
+
+            <label for="rainfall">Annual Rainfall (mm):</label>
+            <input type="number" id="rainfall" placeholder="Enter rainfall in mm">
+
+            <button onclick="calculateRainwater()">Calculate</button>
+
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
